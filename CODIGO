@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+//AREA DE RECTANGULO
+int main(void) {
+    float baseRectangulo, alturaRectangulo, areaRectangulo;
+    printf ("CALCULADOR AREA DE RECTANGULO\n");
+    printf ("Digite el valor de la base: ");
+    scanf("%f", &baseRectangulo);
+    printf ("Digite el valor de la altura: ");
+    scanf("%f", &alturaRectangulo);
+    areaRectangulo=(baseRectangulo*alturaRectangulo);
+    printf("El resultado del area del rectangulo es de: %f", areaRectangulo);
+    return 0;
+}
